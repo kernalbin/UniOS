@@ -1,0 +1,5 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Debug.DebugStub.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Debug.DebugStub.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.DebugStub\obj\Debug\Cosmos.Debug.DebugStub.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.DebugStub\obj\Debug\Cosmos.Debug.DebugStub.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.DebugStub\obj\Debug\Cosmos.Debug.DebugStub.pdb

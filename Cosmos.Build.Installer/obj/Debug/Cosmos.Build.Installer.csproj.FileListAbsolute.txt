@@ -1,0 +1,5 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Build.Installer\bin\Debug\Cosmos.Build.Installer.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Build.Installer\bin\Debug\Cosmos.Build.Installer.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Build.Installer\obj\Debug\Cosmos.Build.Installer.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Build.Installer\obj\Debug\Cosmos.Build.Installer.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Build.Installer\obj\Debug\Cosmos.Build.Installer.pdb

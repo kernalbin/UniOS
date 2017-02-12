@@ -1,0 +1,5 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.VS.Wizards.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.VS.Wizards.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Wizards\obj\Debug\Cosmos.VS.Wizards.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Wizards\obj\Debug\Cosmos.VS.Wizards.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Wizards\obj\Debug\Cosmos.VS.Wizards.pdb

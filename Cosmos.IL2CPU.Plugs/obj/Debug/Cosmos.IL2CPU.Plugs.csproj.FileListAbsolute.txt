@@ -1,0 +1,5 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.IL2CPU.Plugs.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.IL2CPU.Plugs.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.IL2CPU.Plugs\obj\Debug\Cosmos.IL2CPU.Plugs.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.IL2CPU.Plugs\obj\Debug\Cosmos.IL2CPU.Plugs.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.IL2CPU.Plugs\obj\Debug\Cosmos.IL2CPU.Plugs.pdb

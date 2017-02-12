@@ -1,0 +1,13 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.Core.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.Core.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.Common.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.IL2CPU.Plugs.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.Assembler.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.IL2CPU.Plugs.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.Common.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.Debug.Kernel.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\bin\Debug\Cosmos.Assembler.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\obj\x86\Debug\Cosmos.Core.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\obj\x86\Debug\Cosmos.Core.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Core\obj\x86\Debug\Cosmos.Core.pdb

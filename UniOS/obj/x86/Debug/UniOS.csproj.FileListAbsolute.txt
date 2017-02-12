@@ -1,0 +1,17 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\UniOS.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\UniOS.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.System.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Hardware.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.Common.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.HAL.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.Core.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Hardware.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.System.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.Debug.Kernel.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.Common.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.HAL.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\bin\Debug\Cosmos.Core.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\obj\x86\Debug\UniOS.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\obj\x86\Debug\UniOS.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\obj\x86\Debug\UniOS.pdb

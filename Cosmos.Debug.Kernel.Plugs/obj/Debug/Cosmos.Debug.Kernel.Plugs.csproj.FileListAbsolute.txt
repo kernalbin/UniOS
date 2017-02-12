@@ -1,0 +1,5 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Debug.Kernel.Plugs.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Debug.Kernel.Plugs.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.Kernel.Plugs\obj\Debug\Cosmos.Debug.Kernel.Plugs.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.Kernel.Plugs\obj\Debug\Cosmos.Debug.Kernel.Plugs.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.Kernel.Plugs\obj\Debug\Cosmos.Debug.Kernel.Plugs.pdb

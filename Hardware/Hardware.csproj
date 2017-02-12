@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA1D8141-1A32-4AF7-B3BB-638D4DD1B75A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Hardware</RootNamespace>
+    <AssemblyName>Hardware</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Cosmos.System, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+    <Reference Include="Cosmos.Debug.Kernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ae71220097cb983, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Tests\Cosmos.TestRunner.TestController\Cosmos.TestRunner.TestController.csproj">
+      <Project>{e6d3b644-c487-472d-a978-c1a82d0c099b}</Project>
+      <Name>Cosmos.TestRunner.TestController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.Assembler\Cosmos.Assembler.csproj">
+      <Project>{1116130e-28e0-428a-a597-f4b3b676c0ca}</Project>
+      <Name>Cosmos.Assembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.Build.Common\Cosmos.Build.Common.csproj">
+      <Project>{0462e82b-8c29-41a9-8265-9c89038adb29}</Project>
+      <Name>Cosmos.Build.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.Common\Cosmos.Common.csproj">
+      <Project>{1fac100c-d732-4ea4-b518-5af4baf64f2e}</Project>
+      <Name>Cosmos.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.Core.Memory\Cosmos.Core.Memory.csproj">
+      <Project>{84bfa6f0-d518-4d22-bdcf-e07df3c0e678}</Project>
+      <Name>Cosmos.Core.Memory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.Core\Cosmos.Core.csproj">
+      <Project>{5ac4773c-cb4e-4cd9-8d50-02e10a07dee6}</Project>
+      <Name>Cosmos.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.Debug.Common\Cosmos.Debug.Common.csproj">
+      <Project>{ab24e403-54f3-4f67-b5e0-119a7227aac1}</Project>
+      <Name>Cosmos.Debug.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.Debug.DebugStub\Cosmos.Debug.DebugStub.csproj">
+      <Project>{a7f3f078-cf99-4018-9a35-2d6dc9517adb}</Project>
+      <Name>Cosmos.Debug.DebugStub</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.HAL\Cosmos.HAL.csproj">
+      <Project>{6a991d03-1435-4005-9809-b8bacdf3b021}</Project>
+      <Name>Cosmos.HAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.IL2CPU.Plugs\Cosmos.IL2CPU.Plugs.csproj">
+      <Project>{c801f19c-a9d3-42d5-9a57-9ffdf9b4d05e}</Project>
+      <Name>Cosmos.IL2CPU.Plugs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.IL2CPU\Cosmos.IL2CPU.csproj">
+      <Project>{239e33a7-f0c3-4801-85ca-4d8f89a31dc0}</Project>
+      <Name>Cosmos.IL2CPU</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cosmos.System.Plugs\Cosmos.System.Plugs.csproj">
+      <Project>{7c64b97f-516d-4a6d-b9e1-3fe48f561409}</Project>
+      <Name>Cosmos.System.Plugs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

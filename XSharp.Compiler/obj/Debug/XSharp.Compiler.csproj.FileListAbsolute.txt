@@ -1,0 +1,6 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\XSC.exe.config
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\XSC.exe
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\XSC.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Compiler\obj\Debug\XSharp.Compiler.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Compiler\obj\Debug\XSC.exe
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Compiler\obj\Debug\XSC.pdb

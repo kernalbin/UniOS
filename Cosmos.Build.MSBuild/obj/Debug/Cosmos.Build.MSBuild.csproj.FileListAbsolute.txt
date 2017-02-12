@@ -1,0 +1,7 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.targets
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Build.MSBuild.dll.config
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Build.MSBuild.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Build.MSBuild.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Build.MSBuild\obj\Debug\Cosmos.Build.MSBuild.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Build.MSBuild\obj\Debug\Cosmos.Build.MSBuild.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Build.MSBuild\obj\Debug\Cosmos.Build.MSBuild.pdb

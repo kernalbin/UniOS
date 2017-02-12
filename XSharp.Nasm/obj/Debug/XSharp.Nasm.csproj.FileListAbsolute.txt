@@ -1,0 +1,6 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\XSharp.Nasm.dll.config
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\XSharp.Nasm.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\XSharp.Nasm.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Nasm\obj\Debug\XSharp.Nasm.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Nasm\obj\Debug\XSharp.Nasm.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Nasm\obj\Debug\XSharp.Nasm.pdb

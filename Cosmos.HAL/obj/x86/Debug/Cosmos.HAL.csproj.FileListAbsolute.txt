@@ -1,0 +1,15 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.HAL.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.HAL.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.Common.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.Core.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.Debug.Kernel.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.IL2CPU.Plugs.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.Assembler.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.IL2CPU.Plugs.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.Common.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.Debug.Kernel.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.Core.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\bin\Debug\Cosmos.Assembler.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\obj\x86\Debug\Cosmos.HAL.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\obj\x86\Debug\Cosmos.HAL.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.HAL\obj\x86\Debug\Cosmos.HAL.pdb

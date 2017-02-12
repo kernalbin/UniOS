@@ -1,0 +1,7 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Vestris.VMWareLib.dll.config
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Vestris.VMWareLib.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Vestris.VMWareLib.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Vestris.VMWareLib.XML
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\VMWareLib\obj\Debug\VMWareLib.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\VMWareLib\obj\Debug\Vestris.VMWareLib.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\VMWareLib\obj\Debug\Vestris.VMWareLib.pdb

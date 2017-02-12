@@ -1,0 +1,8 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Debug.VSDebugEngine.dll.config
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Debug.VSDebugEngine.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Debug.VSDebugEngine.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.VSDebugEngine\obj\Debug\Cosmos.Debug.VSDebugEngine.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.VSDebugEngine\obj\Debug\Cosmos.Debug.VSDebugEngine.ResourceStrings.resources
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.VSDebugEngine\obj\Debug\Cosmos.Debug.VSDebugEngine.csproj.GenerateResource.Cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.VSDebugEngine\obj\Debug\Cosmos.Debug.VSDebugEngine.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.VSDebugEngine\obj\Debug\Cosmos.Debug.VSDebugEngine.pdb

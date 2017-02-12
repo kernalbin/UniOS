@@ -1,0 +1,6 @@
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Nasm\bin\Debug\XSharp.Nasm.dll.config
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Nasm\bin\Debug\XSharp.Nasm.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Nasm\bin\Debug\XSharp.Nasm.pdb
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Nasm\obj\x86\Debug\XSharp.Nasm.csprojResolveAssemblyReference.cache
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Nasm\obj\x86\Debug\XSharp.Nasm.dll
+C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.Nasm\obj\x86\Debug\XSharp.Nasm.pdb
