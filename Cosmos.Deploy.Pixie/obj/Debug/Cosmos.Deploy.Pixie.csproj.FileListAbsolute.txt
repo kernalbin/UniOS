@@ -1,14 +1,3 @@
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Deploy.Pixie.exe.config
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Deploy.Pixie.exe
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Deploy.Pixie.pdb
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\Cosmos.Deploy.Pixie.csprojResolveAssemblyReference.cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\MainWindow.baml
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\MainWindow.g.cs
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\App.g.cs
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\Cosmos.Deploy.Pixie_Content.g.cs
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\Cosmos.Deploy.Pixie_MarkupCompile.cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\Cosmos.Deploy.Pixie.g.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\Cosmos.Deploy.Pixie.Properties.Resources.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\Cosmos.Deploy.Pixie.csproj.GenerateResource.Cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\Cosmos.Deploy.Pixie.exe
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.Pixie\obj\Debug\Cosmos.Deploy.Pixie.pdb
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.Deploy.Pixie.exe.config
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.Deploy.Pixie.exe
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.Deploy.Pixie.pdb

@@ -12,10 +12,5 @@ namespace Cosmos.System
         {
             HAL.Power.Reboot();
         }
-
-        public static void Shutdown()
-        {
-            HAL.Power.Stop();
-        }
     }
 }

@@ -1,6 +1,3 @@
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.IL2CPU.dll.config
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.IL2CPU.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.IL2CPU.pdb
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.IL2CPU\obj\Debug\Cosmos.IL2CPU.csprojResolveAssemblyReference.cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.IL2CPU\obj\Debug\Cosmos.IL2CPU.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.IL2CPU\obj\Debug\Cosmos.IL2CPU.pdb
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.IL2CPU.dll.config
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.IL2CPU.dll
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.IL2CPU.pdb

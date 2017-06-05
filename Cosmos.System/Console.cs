@@ -63,8 +63,7 @@ namespace Cosmos.System {
             mX = 0;
             if (mY == mText.Rows) {
                 mText.ScrollUp();
-                mY = mText.Rows - 1;
-                mX = 0;
+                mY--;
             }
             UpdateCursor();
         }
@@ -85,12 +84,22 @@ namespace Cosmos.System {
 
         //TODO: Optimize this
         public void Write(string aText) {
+            if (aText == null)
+            {
+                return;
+            }
             for (int i = 0; i < aText.Length; i++) {
                 if (aText[i] == '\n') {
                     NewLine();
                 } else if (aText[i] == '\r') {
+                    mX = 0;
+                    UpdateCursor();
                 } else if (aText[i] == '\t') {
-                    Write("    ");
+                    //Write("    ");
+                    WriteChar(' ');
+                    WriteChar(' ');
+                    WriteChar(' ');
+                    WriteChar(' ');
                 } else {
                     WriteChar(aText[i]);
                 }
@@ -121,7 +130,7 @@ namespace Cosmos.System {
         }
 
         public bool CursorVisible {
-            get { return mText.GetCursorVisible(); } 
+            get { return mText.GetCursorVisible(); }
             set { mText.SetCursorVisible(value);  }
         }
     }

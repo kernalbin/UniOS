@@ -5,7 +5,7 @@ namespace UniOS
 {
     public class Kernel : Sys.Kernel
     {
-        string osversion = "20161026"; // OS Version!!!
+        string osversion = "20170605"; // OS Version!!!
         string user = "";
         string pass = "";
         string current_path = @"0:\";
@@ -157,14 +157,13 @@ namespace UniOS
                     Console.WriteLine(" ");
                     break;
 
-                case "reboot": // Restarts the system
-                    Sys.Power.Reboot();
-                    break;
+                //case "reboot": // Restarts the system
+                //    Sys.Power.Reboot();
+                //    break;
 
-                ///case "halt":
-                ///    Sys.Power.Shutdown();
-                ///    break;
-                ///                                  Currently does not work!!
+                //case "halt": // Turns off the system
+                //    Stop();
+                //    break;
 
                 case "add": // Adds given numbers
                     string[] inputvarsa = vars.Split('#');
@@ -199,11 +198,6 @@ namespace UniOS
                 case "lcm": // Gives lcm conversion of given numbers
                     string[] inputvarsg = vars.Split('#');
                     Console.WriteLine(Math.LcmCon(inputvarsg[0], inputvarsg[1]));
-                    break;
-
-                case "package": // Launches optional packages
-                    string packageid = vars;
-                    CosmosKernel2.Runner.packages(packageid);
                     break;
 
                 default:

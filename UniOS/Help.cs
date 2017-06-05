@@ -29,7 +29,7 @@ namespace UniOS
             Console.WriteLine("*     gcd/n1#n2      | Gets greatest common divisor of n1 and n2              *");
             Console.WriteLine("*     lcm/n1#n2      | Gets least common multiplyer of n1 and n2              *");
             Console.WriteLine("*     lock           | Locks the system, unlocked with username and password  *");
-            Console.WriteLine("*     package/id     | Launches a package based on id given                   *");
+            Console.WriteLine("*                                                                             *");
             Console.WriteLine("*******************************************************************************");
 
         }

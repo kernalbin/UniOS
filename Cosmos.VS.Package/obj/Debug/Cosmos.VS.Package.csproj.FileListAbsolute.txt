@@ -1,33 +1,13 @@
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\ItemTemplates\CosmosKernel (VB).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\ItemTemplates\CosmosProject (VB).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\ItemTemplates\CosmosKernel (C#).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\ItemTemplates\CosmosProject (C#).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\ItemTemplates\Cosmos.zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\ItemTemplates\CosmosProject (F#).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\ItemTemplates\Projects.zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.targets
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.VS.Package.dll.config
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.VS.Package.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.VS.Package.pdb
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.VS.Package.pkgdef
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\extension.vsixmanifest
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.csprojResolveAssemblyReference.cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.VSPackage.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.CosmosPage.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.CustomPropertyPage.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.TitleDivision.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.UnsavedConfigChangesDialog.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.VisualStudio.Package.Project.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.csproj.GenerateResource.Cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\CosmosKernel (VB).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\CosmosProject (VB).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\CosmosKernel (C#).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\CosmosProject (C#).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\CosmosProject (F#).zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Projects.zip
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.pdb
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.pkgdef
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\Cosmos.VS.Package.latest.pkgdef
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.VS.Package\obj\Debug\extension.vsixmanifest
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\ItemTemplates\CosmosKernel (VB).zip
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\ItemTemplates\CosmosProject (VB).zip
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\ItemTemplates\CosmosKernel (C#).zip
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\ItemTemplates\CosmosProject (C#).zip
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\ItemTemplates\Cosmos.zip
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\ItemTemplates\CosmosProject (F#).zip
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\ItemTemplates\Projects.zip
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.targets
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.VS.Package.dll.config
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.VS.Package.dll
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.VS.Package.pdb
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.VS.Package.pkgdef
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\extension.vsixmanifest

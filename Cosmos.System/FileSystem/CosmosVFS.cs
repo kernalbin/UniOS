@@ -124,28 +124,74 @@ namespace Cosmos.System.FileSystem
                 Global.mFileSystemDebugger.SendInternal("Path already exists.");
                 return GetDirectory(aPath);
             }
+
             Global.mFileSystemDebugger.SendInternal("Path doesn't exist.");
 
             string xDirectoryToCreate = Path.GetFileName(aPath);
+
             Global.mFileSystemDebugger.SendInternal("After GetFileName");
             Global.mFileSystemDebugger.SendInternal("xDirectoryToCreate =");
             Global.mFileSystemDebugger.SendInternal(xDirectoryToCreate);
 
             string xParentDirectory = aPath.Remove(aPath.Length - xDirectoryToCreate.Length);
+
             Global.mFileSystemDebugger.SendInternal("After removing last path part");
             Global.mFileSystemDebugger.SendInternal("xParentDirectory =");
             Global.mFileSystemDebugger.SendInternal(xParentDirectory);
 
             DirectoryEntry xParentEntry = GetDirectory(xParentDirectory);
+
             if (xParentEntry == null)
             {
                 Global.mFileSystemDebugger.SendInternal("Parent directory doesn't exist.");
                 xParentEntry = CreateDirectory(xParentDirectory);
             }
+
             Global.mFileSystemDebugger.SendInternal("Parent directory exists.");
 
             var xFS = GetFileSystemFromPath(xParentDirectory);
             return xFS.CreateDirectory(xParentEntry, xDirectoryToCreate);
+        }
+
+        /// <summary>
+        /// Deletes a file.
+        /// </summary>
+        /// <param name="aPath">The full path.</param>
+        /// <returns></returns>
+        public override bool DeleteFile(DirectoryEntry aPath)
+        {
+            try
+            {
+                var xFS = GetFileSystemFromPath(aPath.mFullPath);
+                xFS.DeleteFile(aPath);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// Deletes an empty directory.
+        /// </summary>
+        /// <param name="aPath">The full path.</param>
+        /// <returns></returns>
+        public override bool DeleteDirectory(DirectoryEntry aPath)
+        {
+            try
+            {
+                if (GetDirectoryListing(aPath).Count > 0)
+                    throw new Exception("Directory is not empty");
+
+                var xFS = GetFileSystemFromPath(aPath.mFullPath);
+                xFS.DeleteDirectory(aPath);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
 
         /// <summary>
@@ -167,15 +213,12 @@ namespace Cosmos.System.FileSystem
         /// <returns></returns>
         public override List<DirectoryEntry> GetDirectoryListing(DirectoryEntry aDirectory)
         {
-            DirectoryEntry xTempEntry = aDirectory;
-            string xFullPath = "";
-            while (xTempEntry.mParent != null)
+            if (aDirectory == null || String.IsNullOrEmpty(aDirectory.mFullPath))
             {
-                xFullPath = Path.Combine(xTempEntry.mName, xFullPath);
-                xTempEntry = xTempEntry.mParent;
+                throw new ArgumentException("Argument is null or empty", nameof(aDirectory));
             }
 
-            return GetDirectoryListing(xFullPath);
+            return GetDirectoryListing(aDirectory.mFullPath);
         }
 
         /// <summary>
@@ -197,6 +240,7 @@ namespace Cosmos.System.FileSystem
             }
             catch (Exception)
             {
+                Global.mFileSystemDebugger.SendInternal("CosmosVFS.GetDirectory - DoGetDirectoryEntry failed, returning null. aPath = " + aPath);
                 return null;
             }
             throw new Exception(aPath + " was found, but is not a directory.");
@@ -221,6 +265,7 @@ namespace Cosmos.System.FileSystem
             }
             catch (Exception)
             {
+                Global.mFileSystemDebugger.SendInternal("CosmosVFS.GetFile - DoGetDirectoryEntry failed, returning null. aPath = " + aPath);
                 return null;
             }
             throw new Exception(aPath + " was found, but is not a file.");
@@ -321,7 +366,7 @@ namespace Cosmos.System.FileSystem
 
                 if ((mFileSystems.Count > 0) && (mFileSystems[mFileSystems.Count - 1].mRootPath == xRootPath))
                 {
-                    string xMessage = string.Concat("Initialized ", mFileSystems.Count, "filesystem(s)...");
+                    string xMessage = string.Concat("Initialized ", mFileSystems.Count, " filesystem(s)...");
                     global::System.Console.WriteLine(xMessage);
                     mFileSystems[i].DisplayFileSystemInfo();
                     Directory.SetCurrentDirectory(xRootPath);

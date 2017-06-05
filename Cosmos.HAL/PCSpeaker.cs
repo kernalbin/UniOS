@@ -8,7 +8,7 @@ namespace Cosmos.HAL
 {
     public class PCSpeaker
     {
-        public static void playSound(UInt32 nFrequence)
+        public void playSound(UInt32 nFrequence)
         {
             UInt32 Div;
             UInt16 tmp;

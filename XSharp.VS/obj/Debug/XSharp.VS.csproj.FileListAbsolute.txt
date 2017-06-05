@@ -1,13 +1,4 @@
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\XSharp.VS.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\XSharp.VS.pdb
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\XSharp.VS.pkgdef
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\extension.vsixmanifest
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.VS\obj\Debug\XSharp.VS.csprojResolveAssemblyReference.cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.VS\obj\Debug\VSPackage.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.VS\obj\Debug\XSharp.VS.Resources.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.VS\obj\Debug\XSharp.VS.csproj.GenerateResource.Cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.VS\obj\Debug\XSharp.VS.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.VS\obj\Debug\XSharp.VS.pdb
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.VS\obj\Debug\XSharp.VS.pkgdef
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.VS\obj\Debug\XSharp.VS.latest.pkgdef
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\XSharp.VS\obj\Debug\extension.vsixmanifest
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\XSharp.VS.dll
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\XSharp.VS.pdb
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\XSharp.VS.pkgdef
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\extension.vsixmanifest

@@ -314,7 +314,14 @@ namespace Cosmos.Debug.VSDebugEngine
             switch (xPortType)
             {
                 case "pipe:":
-                    mDbgConnector = new Cosmos.Debug.Common.DebugConnectorPipeServer(xPortParam);
+                    if (xLaunch == "HyperV")
+                    {
+                        mDbgConnector = new Cosmos.Debug.Common.DebugConnectorPipeClient(xPortParam);
+                    }
+                    else
+                    {
+                        mDbgConnector = new Cosmos.Debug.Common.DebugConnectorPipeServer(xPortParam);
+                    }
                     break;
                 case "serial:":
                     if (xLaunch == "IntelEdison")
@@ -335,6 +342,7 @@ namespace Cosmos.Debug.VSDebugEngine
             mDbgConnector.CmdTrace += new Action<UInt32>(DbgCmdTrace);
             mDbgConnector.CmdText += new Action<string>(DbgCmdText);
             mDbgConnector.CmdSimpleNumber += new Action<uint>(DbgCmdSimpleNumber);
+            mDbgConnector.CmdKernelPanic += new Action<uint>(DbgCmdKernelPanic);
             mDbgConnector.CmdSimpleLongNumber += new Action<ulong>(DbgCmdSimpleLongNumber);
             mDbgConnector.CmdComplexNumber += new Action<float>(DbgCmdComplexNumber);
             mDbgConnector.CmdComplexLongNumber += new Action<double>(DbgCmdComplexLongNumber);
@@ -445,6 +453,9 @@ namespace Cosmos.Debug.VSDebugEngine
                 case LaunchType.IntelEdison:
                     mHost = new Host.IntelEdison(mDebugInfo, false);
                     break;
+                case LaunchType.HyperV:
+                    mHost = new Host.HyperV(mDebugInfo, false);
+                    break;
                 default:
                     throw new Exception("Invalid Launch value: '" + mLaunch + "'.");
             }
@@ -537,6 +548,11 @@ namespace Cosmos.Debug.VSDebugEngine
         void DbgCmdSimpleNumber(uint nr)
         {
             mCallback.OnOutputStringUser("0x" + nr.ToString("X8").ToUpper() + "\r\n");
+        }
+
+        void DbgCmdKernelPanic(uint nr)
+        {
+            MessageBox.Show("Kernel panic: 0x" + nr.ToString());
         }
 
         void DbgCmdSimpleLongNumber(ulong nr)

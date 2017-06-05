@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System;
-
 using Cosmos.IL2CPU.Plugs;
 
 namespace Cosmos.System.Plugs.System
@@ -16,6 +14,11 @@ namespace Cosmos.System.Plugs.System
         public static int GetHashCode(ref decimal aThis)
         {
             throw new NotImplementedException("Decimal.GetHashCode()");
+        }
+
+        public static int ToString(ref decimal aThis)
+        {
+            throw new NotImplementedException("Decimal.ToString()");
         }
     }
 }

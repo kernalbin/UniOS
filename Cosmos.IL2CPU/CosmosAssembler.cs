@@ -35,6 +35,7 @@ namespace Cosmos.IL2CPU
             var xPreBootLogging = true;
             if (xPreBootLogging)
             {
+                new Comment("DebugVideo '" + aText + "'");
                 UInt32 xVideo = 0xB8000;
                 for (UInt32 i = xVideo; i < xVideo + 80 * 2; i = i + 2)
                 {
@@ -238,6 +239,12 @@ namespace Cosmos.IL2CPU
             DataMembers.Add(new DataMember("Kernel_Stack", new byte[0]));
             DataMembers.Add(new DataMember("MultiBootInfo_Structure", new uint[1]));
 
+            // constants
+            DataMembers.Add(new DataMember(@"__uint2double_const", new byte[] { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xf0, 0x41 }));
+            DataMembers.Add(new DataMember(@"__ulong2double_const", 0x5F800000));
+            DataMembers.Add(new DataMember(@"__doublesignbit", 0x8000000000000000));
+            DataMembers.Add(new DataMember(@"__floatsignbit", 0x80000000));
+
             if (mComPort > 0)
             {
                 new Define("DEBUGSTUB");
@@ -254,7 +261,7 @@ namespace Cosmos.IL2CPU
             WriteDebugVideo("Cosmos pre boot");
 
             // For when using Bochs, causes a break ASAP on entry after initial Cosmos display.
-            new LiteralAssemblerCode("xchg bx, bx");
+            //new LiteralAssemblerCode("xchg bx, bx");
 
             // CLI ASAP
             WriteDebugVideo("Clearing interrupts.");

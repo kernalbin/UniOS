@@ -1,13 +1,3 @@
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Deploy.USB.exe.config
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Deploy.USB.exe
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Deploy.USB.pdb
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\Cosmos.Deploy.USB.csprojResolveAssemblyReference.cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\MainWindow.baml
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\MainWindow.g.cs
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\App.g.cs
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\Cosmos.Deploy.USB_MarkupCompile.cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\Cosmos.Deploy.USB.g.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\Cosmos.Deploy.USB.Properties.Resources.resources
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\Cosmos.Deploy.USB.csproj.GenerateResource.Cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\Cosmos.Deploy.USB.exe
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Deploy.USB\obj\Debug\Cosmos.Deploy.USB.pdb
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.Deploy.USB.exe.config
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.Deploy.USB.exe
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.Deploy.USB.pdb

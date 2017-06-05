@@ -1,5 +1,0 @@
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.DebugStub\bin\Debug\Cosmos.Debug.DebugStub.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.DebugStub\bin\Debug\Cosmos.Debug.DebugStub.pdb
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.DebugStub\obj\x86\Debug\Cosmos.Debug.DebugStub.csprojResolveAssemblyReference.cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.DebugStub\obj\x86\Debug\Cosmos.Debug.DebugStub.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Debug.DebugStub\obj\x86\Debug\Cosmos.Debug.DebugStub.pdb

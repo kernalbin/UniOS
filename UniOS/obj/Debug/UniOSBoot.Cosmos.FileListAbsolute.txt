@@ -1,1 +1,1 @@
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\UniOS\obj\Debug\UniOSBoot.CosmosResolveAssemblyReference.cache
+C:\Users\Kids\Documents\GitHub\Cosmos\source\UniOS\obj\Debug\UniOSBoot.CosmosResolveAssemblyReference.cache

@@ -1,4 +1,5 @@
-﻿using Cosmos.Assembler.x86.SSE;
+﻿using System;
+using Cosmos.Assembler.x86.SSE;
 using Cosmos.Assembler.x86.x87;
 using static XSharp.Compiler.XSRegisters;
 
@@ -8,6 +9,28 @@ namespace XSharp.Compiler
   {
     public static class SSE
     {
+      public static void SSEInit()
+      {
+         XS.Comment("BEGIN - SSE Init");
+
+         // CR4[bit 9]=1, CR4[bit 10]=1, CR0[bit 2]=0, CR0[bit 1]=1
+
+         XS.Set(EAX, CR4);
+         XS.Or(EAX, 0x100);
+         XS.Set(CR4, EAX);
+         XS.Set(EAX, CR4);
+         XS.Or(EAX, 0x200);
+         XS.Set(CR4, EAX);
+         XS.Set(EAX, CR0);
+         XS.And(EAX, 0xfffffffd);
+         XS.Set(CR0, EAX);
+         XS.Set(EAX, CR0);
+
+         XS.And(EAX, 1);
+         XS.Set(CR0, EAX);
+         XS.Comment("END - SSE Init");
+     }
+
       public static void AddSS(RegisterXMM destination, RegisterXMM source)
       {
         DoDestinationSource<AddSS>(destination, source);
@@ -26,6 +49,16 @@ namespace XSharp.Compiler
       public static void XorPS(RegisterXMM destination, RegisterXMM source)
       {
         DoDestinationSource<XorPS>(destination, source);
+      }
+
+      public static void CompareSS(RegisterXMM destination, RegisterXMM source, ComparePseudoOpcodes comparision)
+      {
+         new CompareSS()
+         {
+            DestinationReg = destination,
+            SourceReg = source,
+            pseudoOpcode = (byte) comparision
+          };
       }
 
       public static void ConvertSI2SS(RegisterXMM destination, Register32 source, bool sourceIsIndirect = false)
@@ -58,15 +91,30 @@ namespace XSharp.Compiler
         };
       }
 
-      public static void ConvertSI2SD(RegisterXMM destination, Register32 source, bool sourceIsIndirect = false)
+      public static void MoveSS(RegisterXMM destination, String sourceLabel, bool destinationIsIndirect = false, int? destinationDisplacement = null, bool sourceIsIndirect = false, int? sourceDisplacement = null)
       {
-        new ConvertSI2SD()
+          DoDestinationSource<MoveSS>(destination, sourceLabel, destinationIsIndirect, destinationDisplacement, sourceIsIndirect, sourceDisplacement);
+      }
+
+      public static void MoveUPS(Register32 destination, RegisterXMM source, bool destinationIsIndirect = false, int? destinationDisplacement = null, bool sourceIsIndirect = false, int? sourceDisplacement = null)
+      {
+        DoDestinationSource<MoveUPS>(destination, source, destinationIsIndirect, destinationDisplacement, sourceIsIndirect, sourceDisplacement);
+      }
+
+#if false
+      public static void MoveUPS(Register32 destination, RegisterXMM source, bool destinationIsIndirect = false, Register32 destinationDisplacement = null, bool sourceIsIndirect = false, int? sourceDisplacement = null)
+      {
+        //DoDestinationSource<MoveUPS>(destination, source, destinationIsIndirect, destinationDisplacement, sourceIsIndirect, sourceDisplacement);
+        new MoveUPS()
         {
           DestinationReg = destination,
-          SourceReg = source,
-          SourceIsIndirect = sourceIsIndirect
+          DestinationIsIndirect = destinationIsIndirect,
+          DestinationDisplacement = (int)destinationDisplacement,
+          SourceDisplacement = sourceDisplacement,
+          SourceReg = source
         };
       }
+#endif
 
       public static void ConvertSS2SD(RegisterXMM destination, Register32 source, bool sourceIsIndirect = false)
       {
@@ -98,7 +146,7 @@ namespace XSharp.Compiler
 
       public static void DivSS(RegisterXMM destination, RegisterXMM source)
       {
-        new DivPS
+        new DivSS
         {
           DestinationReg = destination,
           SourceReg = source
@@ -120,6 +168,16 @@ namespace XSharp.Compiler
         {
           DestinationReg = destination,
           DestinationIsIndirect = isIndirect
+        };
+      }
+
+      public static void Shufps(RegisterXMM destination, RegisterXMM source, int bitmask)
+      {
+        new Shufps()
+        {
+          DestinationReg = destination,
+          SourceReg = source,
+          pseudoOpcode = (byte)bitmask
         };
       }
     }

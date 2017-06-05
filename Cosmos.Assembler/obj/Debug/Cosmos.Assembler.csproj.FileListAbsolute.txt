@@ -1,5 +1,2 @@
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Assembler.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\Build\VSIP\Cosmos.Assembler.pdb
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Assembler\obj\Debug\Cosmos.Assembler.csprojResolveAssemblyReference.cache
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Assembler\obj\Debug\Cosmos.Assembler.dll
-C:\Users\Kids\Desktop\Unios\main_UniOs\source\Cosmos.Assembler\obj\Debug\Cosmos.Assembler.pdb
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.Assembler.dll
+C:\Users\Kids\Documents\GitHub\Cosmos\Build\VSIP\Cosmos.Assembler.pdb

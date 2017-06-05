@@ -13,10 +13,5 @@ namespace Cosmos.HAL
         {
             Core.Global.CPU.Reboot();
         }
-
-        public static void Stop()
-        {
-            Core.Global.CPU.Halt();
-        }
     }
 }

@@ -1,11 +1,13 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Reflection;
 
 using SysReflection = System.Reflection;
 
-namespace Cosmos.IL2CPU.ILOpCodes {
-  public class OpNone : ILOpCode {
+namespace Cosmos.IL2CPU.ILOpCodes
+{
+  public class OpNone : ILOpCode
+  {
 
     public OpNone(Code aOpCode, int aPos, int aNextPos, ExceptionHandlingClause aCurrentExceptionHandler)
       : base(aOpCode, aPos, aNextPos, aCurrentExceptionHandler)
@@ -22,7 +24,7 @@ namespace Cosmos.IL2CPU.ILOpCodes {
           return 0;
         case Code.Ret:
           var methodInfo = aMethod as SysReflection.MethodInfo;
-          if (methodInfo != null && methodInfo.ReturnType != typeof (void))
+          if (methodInfo != null && methodInfo.ReturnType != typeof(void))
           {
             return 1;
           }
@@ -139,6 +141,8 @@ namespace Cosmos.IL2CPU.ILOpCodes {
         case Code.Ldelem_U1:
         case Code.Ldelem_U2:
         case Code.Ldelem_U4:
+        case Code.Ldelem_R4:
+        case Code.Ldelem_R8:
           return 2;
         case Code.Ldnull:
           return 0;
@@ -271,7 +275,9 @@ namespace Cosmos.IL2CPU.ILOpCodes {
         case Code.Ldelem_U1:
         case Code.Ldelem_U2:
         case Code.Ldelem_U4:
-          return 1;
+        case Code.Ldelem_R4:
+        case Code.Ldelem_R8:
+            return 1;
         case Code.Ldnull:
           return 1;
         case Code.Dup:
@@ -292,63 +298,63 @@ namespace Cosmos.IL2CPU.ILOpCodes {
       switch (OpCode)
       {
         case Code.Ldind_U1:
-          StackPushTypes[0] = typeof (byte);
+          StackPushTypes[0] = typeof(byte);
           return;
 
         case Code.Ldind_U2:
-          StackPushTypes[0] = typeof (ushort);
+          StackPushTypes[0] = typeof(ushort);
           return;
 
         case Code.Ldind_U4:
-          StackPushTypes[0] = typeof (UInt32);
+          StackPushTypes[0] = typeof(UInt32);
           return;
 
         case Code.Ldind_R4:
-          StackPushTypes[0] = typeof (Single);
+          StackPushTypes[0] = typeof(Single);
           return;
 
         case Code.Ldind_R8:
-          StackPushTypes[0] = typeof (Double);
+          StackPushTypes[0] = typeof(Double);
           return;
 
         case Code.Conv_I:
-          StackPushTypes[0] = typeof (IntPtr);
+          StackPushTypes[0] = typeof(IntPtr);
           break;
 
         case Code.Conv_I1:
-          StackPushTypes[0] = typeof (sbyte);
+          StackPushTypes[0] = typeof(sbyte);
           break;
 
         case Code.Conv_I2:
-          StackPushTypes[0] = typeof (short);
+          StackPushTypes[0] = typeof(short);
           break;
 
         case Code.Conv_I4:
-          StackPushTypes[0] = typeof (int);
+          StackPushTypes[0] = typeof(int);
           break;
 
         case Code.Conv_I8:
-          StackPushTypes[0] = typeof (long);
+          StackPushTypes[0] = typeof(long);
           break;
 
         case Code.Conv_U:
-          StackPushTypes[0] = typeof (UIntPtr);
+          StackPushTypes[0] = typeof(UIntPtr);
           break;
 
         case Code.Conv_U1:
-          StackPushTypes[0] = typeof (byte);
+          StackPushTypes[0] = typeof(byte);
           break;
 
         case Code.Conv_U2:
-          StackPushTypes[0] = typeof (ushort);
+          StackPushTypes[0] = typeof(ushort);
           break;
 
         case Code.Conv_U4:
-          StackPushTypes[0] = typeof (uint);
+          StackPushTypes[0] = typeof(uint);
           break;
 
         case Code.Conv_U8:
-          StackPushTypes[0] = typeof (ulong);
+          StackPushTypes[0] = typeof(ulong);
           break;
 
         case Code.Conv_R4:
@@ -420,55 +426,60 @@ namespace Cosmos.IL2CPU.ILOpCodes {
           break;
 
         case Code.Clt:
-          StackPushTypes[0] = typeof (int);
+          StackPushTypes[0] = typeof(int);
           return;
         case Code.Clt_Un:
-          StackPushTypes[0] = typeof (int);
+          StackPushTypes[0] = typeof(int);
           return;
         case Code.Cgt:
-          StackPushTypes[0] = typeof (int);
+          StackPushTypes[0] = typeof(int);
           return;
         case Code.Cgt_Un:
-          StackPushTypes[0] = typeof (int);
+          StackPushTypes[0] = typeof(int);
           return;
         case Code.Ceq:
-          StackPushTypes[0] = typeof (int);
+          StackPushTypes[0] = typeof(int);
           return;
         case Code.Throw:
-          StackPopTypes[0] = typeof (object);
+          StackPopTypes[0] = typeof(object);
           return;
         case Code.Ldlen:
-          StackPushTypes[0] = typeof (UIntPtr);
+          StackPushTypes[0] = typeof(UIntPtr);
           return;
 
         case Code.Ldelem_I:
-          StackPushTypes[0] = typeof (IntPtr);
+          StackPushTypes[0] = typeof(IntPtr);
           return;
         case Code.Ldelem_I1:
-          StackPushTypes[0] = typeof (sbyte);
+          StackPushTypes[0] = typeof(sbyte);
           return;
         case Code.Ldelem_I2:
-          StackPushTypes[0] = typeof (short);
+          StackPushTypes[0] = typeof(short);
           return;
         case Code.Ldelem_I4:
-          StackPushTypes[0] = typeof (int);
+          StackPushTypes[0] = typeof(int);
           return;
         case Code.Ldelem_I8:
-          StackPushTypes[0] = typeof (long);
+          StackPushTypes[0] = typeof(long);
           return;
         case Code.Ldelem_U1:
-          StackPushTypes[0] = typeof (byte);
+          StackPushTypes[0] = typeof(byte);
           return;
         case Code.Ldelem_U2:
-          StackPushTypes[0] = typeof (ushort);
+          StackPushTypes[0] = typeof(ushort);
           return;
         case Code.Ldelem_U4:
-          StackPushTypes[0] = typeof (uint);
+          StackPushTypes[0] = typeof(uint);
           return;
+        case Code.Ldelem_R4:
+            StackPushTypes[0] = typeof(float);
+            return;
+        case Code.Ldelem_R8:
+            StackPushTypes[0] = typeof(double);
+            return;
         case Code.Ldnull:
-          StackPushTypes[0] = typeof (NullRef);
+          StackPushTypes[0] = typeof(NullRef);
           return;
-
         case Code.Ldind_I:
           StackPushTypes[0] = typeof(IntPtr);
           return;
@@ -497,7 +508,7 @@ namespace Cosmos.IL2CPU.ILOpCodes {
           StackPopTypes[0] = typeof(long);
           return;
         case Code.Conv_R_Un:
-          StackPushTypes[0] = typeof (Double);
+          StackPushTypes[0] = typeof(Double);
           return;
       }
     }
@@ -527,6 +538,13 @@ namespace Cosmos.IL2CPU.ILOpCodes {
           {
             // PopTypes set, but PushType not yet, so fill it.
 
+            if (StackPopTypes[0] == typeof(bool) && StackPopTypes[1] == typeof(bool))
+            {
+              StackPushTypes[0] = typeof(bool);
+              aSituationChanged = true;
+              return;
+            }
+
             if ((StackPopTypes[0] == typeof(bool) && StackPopTypes[1] == typeof(Int32)) ||
               (StackPopTypes[0] == typeof(Int32) && StackPopTypes[1] == typeof(bool)))
             {
@@ -535,10 +553,10 @@ namespace Cosmos.IL2CPU.ILOpCodes {
               return;
             }
 
-            if ((StackPopTypes[0] == typeof (IntPtr) && StackPopTypes[1] == typeof (uint*))
-              || (StackPopTypes[0] == typeof (uint*) && StackPopTypes[1] == typeof (IntPtr)))
+            if ((StackPopTypes[0] == typeof(IntPtr) && StackPopTypes[1] == typeof(uint*))
+              || (StackPopTypes[0] == typeof(uint*) && StackPopTypes[1] == typeof(IntPtr)))
             {
-              StackPushTypes[0] = typeof (uint*);
+              StackPushTypes[0] = typeof(uint*);
               aSituationChanged = true;
               return;
             }
@@ -705,6 +723,13 @@ namespace Cosmos.IL2CPU.ILOpCodes {
               aSituationChanged = true;
               return;
             }
+            //Changed
+            if (StackPopTypes[0] == typeof(short) && StackPopTypes[1] == typeof(short))
+            {
+              StackPushTypes[0] = typeof(short);
+              aSituationChanged = true;
+              return;
+            }
             if (StackPopTypes[0] == typeof(long) && StackPopTypes[1] == typeof(long))
             {
               StackPushTypes[0] = typeof(long);
@@ -787,8 +812,8 @@ namespace Cosmos.IL2CPU.ILOpCodes {
             return;
           }
 
-          if (xTypeValue == typeof (byte)
-            || xTypeValue == typeof (char)
+          if (xTypeValue == typeof(byte)
+            || xTypeValue == typeof(char)
             || xTypeValue == typeof(short)
             || xTypeValue == typeof(ushort)
             || xTypeValue == typeof(int))
@@ -805,9 +830,9 @@ namespace Cosmos.IL2CPU.ILOpCodes {
           {
             return;
           }
-          if (xTypeValue == typeof (int) && xTypeShift == typeof (int))
+          if (xTypeValue == typeof(int) && xTypeShift == typeof(int))
           {
-            StackPushTypes[0] = typeof (int);
+            StackPushTypes[0] = typeof(int);
             aSituationChanged = true;
             return;
           }
@@ -885,9 +910,9 @@ namespace Cosmos.IL2CPU.ILOpCodes {
           }
           if (xTypeValue == typeof(short) && xTypeShift == typeof(int))
           {
-             StackPushTypes[0] = typeof(int);
-             aSituationChanged = true;
-             return;
+            StackPushTypes[0] = typeof(int);
+            aSituationChanged = true;
+            return;
           }
           throw new NotImplementedException(String.Format("{0} with types {1} and {2} is not implemented!", OpCode, xTypeValue.FullName, xTypeShift.FullName));
         case Code.Ldelem_Ref:
